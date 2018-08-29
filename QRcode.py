@@ -1,6 +1,6 @@
 import pyqrcode
 
-genQR = pyqrcode.create("Hello World")
+genQR = pyqrcode.create("This is a message embed in QR-code")
 genQR.png('newQR.png',scale=5)
 
 #from pdf2jpg import pdf2jpg
